@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #242426;
+  
+}
+
+#top-movie {
+  height: 200px;
+  width: 350px;
+  margin-top: 50px;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#movie {
+  width: 108px;
+  height: 130px;
+}
+
+.container {
+  display: grid;
+  gap: var(--size-3);
+  grid-auto-flow: column;
+  grid-auto-columns: 36%;
+  grid-auto-columns: 32%;
+  
+  overflow-x: auto;
+}
+
+#netflix {
+  width: 109px;
+  margin-right: 150px;
+  
+}
+
+.nav-bar {
+   background-color: #040404;
+   display: flex;
+   position: fixed;
+   width: 400px;
+   height: 50px;
+   justify-content: space-between;
+   
+}
+
+#menu {
+  text-decoration: none;
+  color: white;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 15px;
+  display: flex;
+}
+
+#search {
+  color: white;
+  margin-top: 15px;
+  margin-right: 50px;
+ 
+}
+
+#navyy {
+  font-size: 15px;
+ color: white;
+
+}
+
+h3 {
+  font-size: 50px;
+  display: none;
+}
+
+p {
+  font-size: 26px;
+  display: none;
+}
+
+h4 {
+  display: block;
+  color: white;
+}
+
+h6 {
+  display: none;
+}
+
+footer {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+
+  #top-movie {
+    display: none;
+    
+  }
+
+
+#movie {
+  width: 230px;
+  height: 220px;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+}
+p{
+  font-size: 26px;
+  display: flex;
+  color: white;
+}
+
+h4 {
+  display: none;
+}
+
+.nav-bar {
+  background-color: rgba(0,0,0,0.5);
+  justify-content: space-between;
+  width: 940px;
+  
+
+}
+
+#netflix {
+  display: none;
+
+}
+
+h6 {
+  display: flex;
+  font-size: 30px;
+  color: red;
+  margin-left: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu {
+  display: none;
+}
+
+#navy {
+  margin-right: 200px;
+  font-size: 18px;
+}
+
+#navyy {
+  font-size: 18px;
+}
+  
+
+h2 {
+  font-size: 28px;
+}
+
+.conty {
+  height: 70px;
+  
+}
+
+
+.container {
+  display: flex;
+  grid-auto-flow: column;
+  grid-auto-columns: 36%;
+  grid-auto-columns: 32%;
+  justify-content: space-evenly;
+  
+  overflow-x: auto;
+}
+
+footer {
+  color: white;
+}
+
+}
